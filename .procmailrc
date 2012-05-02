@@ -1,0 +1,7 @@
+MAILDIR = $HOME/Mail
+DEFAULT = $MAILDIR/inbox
+LOGFILE = $MAILDIR/.procmaillog
+ 
+:0
+* .* 
+inbox

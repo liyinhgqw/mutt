@@ -1,0 +1,7 @@
+# -*- muttrc -*-
+
+# Use the normal defaults first.
+source ~/.mutt/defaults
+
+# Use the "@" key as a quick save and synx button.
+macro index @ "<save-message>=history<enter><sync-mailbox><enter>"

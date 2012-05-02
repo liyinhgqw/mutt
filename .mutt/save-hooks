@@ -1,0 +1,6 @@
+# -*- muttrc -*-
+#
+# Configure where things get saved to.
+#
+
+save-hook .*                                =mbox

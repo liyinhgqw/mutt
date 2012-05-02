@@ -1,0 +1,10 @@
+# -*- muttrc -*-
+
+# Use the normal defaults first.
+source ~/.mutt/defaults
+
+# View threads
+set sort=threads
+
+# Give mailing lists a more "slrn" like feel.
+set pager_index_lines=9

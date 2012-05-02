@@ -1,0 +1,14 @@
+#
+# ~/.mutt/aliases
+#
+# Command alias :
+# Syntax: alias <name> <address_list>
+# <address_list> := <address>{,<address>}
+# Attention: !!! No mutt comments in the alias lines !!!
+
+alias nc-dev hubert, grzegorz, ziemowit
+alias nc-support mirko, andreas, alexander
+
+# ~/bin/muttquery.py ncomputing nc-company | awk '/@/{c=$2; for(i=3; i<=NF; i++) c=c" "$i; print c" <"$1">"}' | while read c; do n=${c%% *}; echo alias $n:l \"$c\"; done >> aliases
+alias yuyang "yuyang0111@gmail.com"
+alias me "liyinhgqw@gmail.com"

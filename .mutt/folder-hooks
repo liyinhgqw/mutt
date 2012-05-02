@@ -1,0 +1,15 @@
+# -*- muttrc -*-
+#
+# Fine tune mutt depending on which folder I'm viewing.
+#
+
+folder-hook .                  source ~/.mutt/defaults
+folder-hook "!$"               source ~/.mutt/defaults.inbox
+folder-hook =Junk$             source ~/.mutt/defaults.maillist
+
+
+# =mbox and =outbox are symlinks to =history.
+folder-hook =mbox$   push "<limit>!~f\\\"davep@(hagbard.demon.co.uk|davep.org)\\\"<enter><last-entry>"
+folder-hook =mbox$   source ~/.mutt/defaults.history
+folder-hook =outbox$ push "<limit>~f\\\"davep@(hagbard.demon.co.uk|davep.org)\\\"<enter><last-entry>"
+folder-hook =outbox$ source ~/.mutt/defaults.history

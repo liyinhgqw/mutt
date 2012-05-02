@@ -1,0 +1,15 @@
+# -*- muttrc -*-
+#
+# List of folders that are considered to be mailboxes (folders that
+# receive incoming mail).
+#
+
+mailboxes ! 
+mailboxes =inbox
+mailboxes =outbox
+mailboxes =postponed
+mailboxes =school
+mailboxes =lab
+mailboxes =work
+mailboxes =others
+mailboxes =Junk
